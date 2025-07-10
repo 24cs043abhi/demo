@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>leave</title>
+    <style>
+        body{
+            background-image: url("cbg2.avif");
+            background-size: cover;
+            /* background-size: contain; */
+        }
+        .nev{
+                display: inline-block;
+                margin-right: 130px;
+                font-size: 20px;
+                margin-top: 20px;
+                    
+            }
+            .nev:hover{ text-decoration:underline white;    }
+    </style>
+</head>
+
+<body>
+   
+    <header>
+            <div style="display:inline-block;position: fixed;top: 0px;left: 0px;background-color: black;width:100%;height: 70px;color: white;">
+                    
+<div class="nev" style="margin-left: 40px;">student profile</div>
+<div  class="nev"><a href="time table.html" style="text-decoration: none;color: white;" >time table</a></div>
+<div  class="nev"><a href="attendance.html" style="text-decoration: none;color: white;" >attendance</a> </div>
+<div  class="nev" ><a href="fees.html" style="text-decoration: none;color: white;">fees</a> </div>
+<div  class="nev"><a href="result.html" style="text-decoration: none;color: white;"> result</a></div>
+<div  class="nev"><a href="corr.html" style="text-decoration: none;color: white;" >course registration</a> </div>
+<div class="nev1" style="display: inline-block; font-size: 20px;"><a href="leave.html"  style="text-decoration: none;color: white;">leave</a> </div>
+
+            </div>
+        </header>
+
+        <main style="padding:120px 20px 40px 20px;max-width:700px;margin:auto;
+                 background:rgba(255,255,255,0.9);border-radius:12px;
+                 box-shadow:0 8px 16px rgba(0,0,0,0.2);">
+
+        <h2 style="text-align:center;margin-top:0;">Leave Application Form</h2>
+
+        <form action="#" method="post" style="display:flex;flex-direction:column;gap:18px;">
+
+            <!-- Name -->
+            <div style="display:flex;flex-direction:column;">
+                <label for="name" style="font-weight:600;margin-bottom:4px;">Full Name</label>
+                <input id="name" name="name" type="text" required
+                       style="padding:10px;border:1px solid #aaa;border-radius:6px;font-size:16px;">
+            </div>
+
+            <div style="display:flex;flex-direction:column;">
+                <label for="roll" style="font-weight:600;margin-bottom:4px;">Roll / ID Number</label>
+                <input id="roll" name="roll" type="text" required
+                       style="padding:10px;border:1px solid #aaa;border-radius:6px;font-size:16px;">
+            </div>
+
+            <!-- Leave Dates -->
+            <div style="display:flex;gap:20px;flex-wrap:wrap;">
+                <div style="flex:1;min-width:150px;display:flex;flex-direction:column;">
+                    <label for="from" style="font-weight:600;margin-bottom:4px;">From Date</label>
+                    <input id="from" name="from" type="date" required
+                           style="padding:10px;border:1px solid #aaa;border-radius:6px;font-size:16px;">
+                </div>
+                <div style="flex:1;min-width:150px;display:flex;flex-direction:column;">
+                    <label for="to" style="font-weight:600;margin-bottom:4px;">To Date</label>
+                    <input id="to" name="to" type="date" required
+                           style="padding:10px;border:1px solid #aaa;border-radius:6px;font-size:16px;">
+                </div>
+            </div>
+
+             <div style="display:flex;flex-direction:column;">
+                <label for="type" style="font-weight:600;margin-bottom:4px;">Type of Leave</label>
+                <select id="type" name="type" required
+                        style="padding:10px;border:1px solid #aaa;border-radius:6px;font-size:16px;">
+                    <option value="">-- Select --</option>
+                    <option>Sick Leave</option>
+                    <option>Casual Leave</option>
+                    <option>Emergency Leave</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <!-- Reason -->
+            <div style="display:flex;flex-direction:column;">
+                <label for="reason" style="font-weight:600;margin-bottom:4px;">Reason</label>
+                <textarea id="reason" name="reason" rows="4" required
+                          style="padding:10px;border:1px solid #aaa;border-radius:6px;font-size:16px;resize:vertical;"></textarea>
+            </div>
+             <button type="submit"
+                style="align-self:flex-start;padding:12px 30px;background:#007bff;color:#fff;
+                       border:none;border-radius:8px;font-size:16px;cursor:pointer;
+                       transition:background 0.3s;">
+                Submit
+            </button>
+        </form>
+    </main>
+    
+     <footer style="background-color: black;width:100%;position: fixed;left: 0px;right: 0px;height: 40px;bottom: 0px;">
+            <div style="color: white;text-align: center;padding-top: 10px;"> &#9400; 2000-2025 charusat</div>
+        </footer>
+        
+</body>
+
+</html>

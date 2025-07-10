@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>course registration</title>
+        <style>
+            body{
+                background-image: url("cbg2.avif");
+                background-size: cover;
+                
+            }
+            .nev{
+                display: inline-block;
+                margin-right: 130px;
+                font-size: 20px;
+                margin-top: 20px;
+                    
+            }
+            .nev:hover{ text-decoration:underline white;    
+                        
+            }
+            table,th,tr,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                background-color: white;
+            }
+            th{
+                background-color: rgb(55, 0, 255);
+                font-size: 30px;
+                text-align: center;
+                color: white;
+                border-color: white;
+            }
+            td{
+                font-size: 25px;
+                border-color: rgb(224, 224, 202);
+                text-align: center;
+            }
+            .data1{
+                text-align: center;
+            }
+            tr:nth-child(odd){background-color: rgb(235, 220, 201);}
+            
+            .nev1:hover{ text-decoration:underline white; }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div style="display:inline-block;position: fixed;top: 0px;left: 0px;background-color: black;width:100%;height: 70px;color: white;">
+                    
+<div class="nev" style="margin-left: 40px;">student profile</div>
+<div  class="nev"><a href="time table.html" style="text-decoration: none;color: white;" >time table</a></div>
+<div  class="nev"><a href="attendance.html" style="text-decoration: none;color: white;" >attendance</a> </div>
+<div  class="nev" ><a href="fees.html" style="text-decoration: none;color: white;">fees</a> </div>
+<div  class="nev"><a href="result.html" style="text-decoration: none;color: white;"> result</a></div>
+<div  class="nev"><a href="corr.html" style="text-decoration: none;color: white;" >course registration</a> </div>
+<div class="nev1" style="display: inline-block; font-size: 20px;"><a href="leave.html"  style="text-decoration: none;color: white;">leave</a> </div>
+
+
+
+            </div>
+        </header>
+        <br/>
+        <br/>
+        <br/>
+        <table style="height: 400px;width: 700px;margin-top: 150px;margin-left: 400px;margin-bottom: 10px;">
+            <tr>
+                <th>course code</th>
+                <th>course name</th>
+                <th>section</th>
+            </tr>
+            <tr>
+                <td class="data">hv0100</td>
+                <td class="data" class="data1">money and banking</td>
+                <td class="data"><input type="checkbox" id="section"></td>
+            </tr>
+            <tr>
+                <td class="data">ff0100</td>
+                <td class="data" class="data1">human computer</td>
+                <td class="data"><input type="checkbox" id="section"></td>
+            </tr>
+            <tr>
+                <td class="data">hj0100</td>
+                <td class="data" class="data1">banking</td>
+                <td class="data"><input type="checkbox" id="section"></td>
+            </tr>
+            <tr>
+                <td class="data">h0100</td>
+                <td class="data" class="data1">money and banking</td>
+                <td class="data"><input type="checkbox" id="section"></td>
+            </tr>
+            <td class="data">kl0100</td>
+            <td class="data" class="data1">python for das</td>
+            <td class="data"><input type="checkbox" id="section"></td>
+        </tr>
+        </table>
+        <button type="submit"
+                style="align-self:flex-start;padding:12px 30px;background:#007bff;color:#fff;
+                       border:none;border-radius:8px;font-size:16px;cursor:pointer;
+                       transition:background 0.3s;margin-left: 982px;font-size: 20px;">
+                Submit
+            </button>
+        
+       <footer style="background-color: black;width:100%;position: fixed;left: 0px;right: 0px;height: 40px;bottom: 0px;">
+            <div style="color: white;text-align: center;padding-top: 10px;"> &#9400; 2000-2025 charusat</div>
+        </footer>
+        
+       
+    </body>
+</html>
